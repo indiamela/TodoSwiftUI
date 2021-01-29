@@ -17,6 +17,7 @@
 		F26B9CA525C2257C004F1262 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26B9CA425C2257C004F1262 /* Preview Assets.xcassets */; };
 		F26B9CA825C2257C004F1262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26B9CA625C2257C004F1262 /* LaunchScreen.storyboard */; };
 		F26B9CB125C227F7004F1262 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B9CB025C227F7004F1262 /* CheckBox.swift */; };
+		F2C39A5525C4C8EC00C0AE77 /* TodoEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C39A5425C4C8EC00C0AE77 /* TodoEntity+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F26B9CA725C2257C004F1262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F26B9CA925C2257C004F1262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F26B9CB025C227F7004F1262 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		F2C39A5425C4C8EC00C0AE77 /* TodoEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoEntity+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				F22BEF5525C375970046A25B /* Color+Extension.swift */,
+				F2C39A5425C4C8EC00C0AE77 /* TodoEntity+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C39A5525C4C8EC00C0AE77 /* TodoEntity+Extension.swift in Sources */,
 				F26B9C9925C2257B004F1262 /* AppDelegate.swift in Sources */,
 				F22BEF5625C375970046A25B /* Color+Extension.swift in Sources */,
 				F26B9CA025C2257B004F1262 /* TodoSwiftUI.xcdatamodeld in Sources */,
