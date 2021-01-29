@@ -18,6 +18,7 @@
 		F26B9CA825C2257C004F1262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26B9CA625C2257C004F1262 /* LaunchScreen.storyboard */; };
 		F26B9CB125C227F7004F1262 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B9CB025C227F7004F1262 /* CheckBox.swift */; };
 		F2C39A5525C4C8EC00C0AE77 /* TodoEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C39A5425C4C8EC00C0AE77 /* TodoEntity+Extension.swift */; };
+		F2C39A5925C4CB7900C0AE77 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C39A5825C4CB7900C0AE77 /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F26B9CA925C2257C004F1262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F26B9CB025C227F7004F1262 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		F2C39A5425C4C8EC00C0AE77 /* TodoEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoEntity+Extension.swift"; sourceTree = "<group>"; };
+		F2C39A5825C4CB7900C0AE77 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				F26B9C9A25C2257B004F1262 /* SceneDelegate.swift */,
 				F26B9C9C25C2257B004F1262 /* ContentView.swift */,
 				F26B9CB025C227F7004F1262 /* CheckBox.swift */,
+				F2C39A5825C4CB7900C0AE77 /* CategoryView.swift */,
 				F22BEF5825C377600046A25B /* UserView.swift */,
 				F26B9CA125C2257C004F1262 /* Assets.xcassets */,
 				F26B9CA625C2257C004F1262 /* LaunchScreen.storyboard */,
@@ -176,6 +179,7 @@
 				F26B9C9D25C2257B004F1262 /* ContentView.swift in Sources */,
 				F26B9CB125C227F7004F1262 /* CheckBox.swift in Sources */,
 				F22BEF5925C377600046A25B /* UserView.swift in Sources */,
+				F2C39A5925C4CB7900C0AE77 /* CategoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
