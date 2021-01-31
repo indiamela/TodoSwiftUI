@@ -12,6 +12,7 @@ struct CategoryView: View {
     @State var numberOfTasks = 0
     @State var showList = false
     @Environment(\.managedObjectContext) var viewContext
+    @State var addNewtask = false
     //viewContextはDBを操作するために必要
     var body: some View {
         VStack(alignment: .leading) {
@@ -19,16 +20,21 @@ struct CategoryView: View {
                 .font(.largeTitle)
                 .sheet(isPresented: $showList, content: {
                     //showListがtrueになったらsheetを表示
-                    TodoList(category: self.category)
+                    NewTask(category: self.category.rawValue)
                         .environment(\.managedObjectContext, self.viewContext)
                         //DBを扱う
                 })
                 Text(category.toString())
                 Text(" - \(numberOfTasks)タスク")
-                Button(action:{}) {
+                Button(action:{
+                    self.addNewtask = true
+                }) {
                     //新規タスク追加
                     Image(systemName: "plus")
-                }
+                }.sheet(isPresented: $addNewtask, content: {
+                    NewTask(category: self.category.rawValue)
+                        .environment(\.managedObjectContext, self.viewContext)
+                })
                 Spacer()
             }
         .padding()
@@ -52,6 +58,6 @@ struct CategoryView_Previews: PreviewProvider {
             CategoryView(category: .ImpNUrg_2nd)
             CategoryView(category: .NImpUrg_3rd)
             CategoryView(category: .NImpNUrg_4th)
-        }
+        }.environment(\.managedObjectContext, context)
     }
 }

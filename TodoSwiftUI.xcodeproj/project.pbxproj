@@ -10,6 +10,7 @@
 		F22BEF5625C375970046A25B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BEF5525C375970046A25B /* Color+Extension.swift */; };
 		F22BEF5925C377600046A25B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BEF5825C377600046A25B /* UserView.swift */; };
 		F23906A125C6A6230088164D /* NewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23906A025C6A6230088164D /* NewTask.swift */; };
+		F23906A525C6AC1A0088164D /* Binding+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23906A425C6AC1A0088164D /* Binding+Extension.swift */; };
 		F26B9C9925C2257B004F1262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B9C9825C2257B004F1262 /* AppDelegate.swift */; };
 		F26B9C9B25C2257B004F1262 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B9C9A25C2257B004F1262 /* SceneDelegate.swift */; };
 		F26B9C9D25C2257B004F1262 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B9C9C25C2257B004F1262 /* ContentView.swift */; };
@@ -30,6 +31,7 @@
 		F22BEF5525C375970046A25B /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		F22BEF5825C377600046A25B /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		F23906A025C6A6230088164D /* NewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTask.swift; sourceTree = "<group>"; };
+		F23906A425C6AC1A0088164D /* Binding+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extension.swift"; sourceTree = "<group>"; };
 		F26B9C9525C2257B004F1262 /* TodoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26B9C9825C2257B004F1262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F26B9C9A25C2257B004F1262 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				F22BEF5525C375970046A25B /* Color+Extension.swift */,
+				F23906A425C6AC1A0088164D /* Binding+Extension.swift */,
 				F2C39A5425C4C8EC00C0AE77 /* TodoEntity+Extension.swift */,
 			);
 			path = Extension;
@@ -190,6 +193,7 @@
 				F2C39A6125C5306E00C0AE77 /* TodoList.swift in Sources */,
 				F2C39A5E25C5033D00C0AE77 /* QuickNewTask.swift in Sources */,
 				F26B9C9925C2257B004F1262 /* AppDelegate.swift in Sources */,
+				F23906A525C6AC1A0088164D /* Binding+Extension.swift in Sources */,
 				F2C39A6B25C54FE500C0AE77 /* CategoryImage.swift in Sources */,
 				F22BEF5625C375970046A25B /* Color+Extension.swift in Sources */,
 				F26B9CA025C2257B004F1262 /* TodoSwiftUI.xcdatamodeld in Sources */,
