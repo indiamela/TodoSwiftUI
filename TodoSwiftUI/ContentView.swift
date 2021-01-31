@@ -9,16 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image(systemName: "tortoise.fill")
-            .resizable() //リサイズ
-            .scaledToFit() //スケールをあわせる
-            .frame(width: 30, height: 30)
-            .foregroundColor(.white)
-            .background(Color(#colorLiteral(red: 0.7246091962, green: 0.8572179675, blue: 0.5617229342, alpha: 1)))
-        //.background(Color(#colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)))
-            .cornerRadius(6.0)
-            .padding(2.0)
-
+        VStack {
+            Color.tBackground
+                .edgesIgnoringSafeArea(.top)
+                .frame(height:0)
+            UserView(image: Image("profile"), userName: "Taishi Kusunose")
+            VStack {
+                HStack(spacing:0) {
+                    CategoryView(category: .ImpUrg_1st)
+                    Spacer()
+                    CategoryView(category: .ImpNUrg_2nd)
+                }
+                HStack(spacing:0) {
+                    CategoryView(category: .NImpUrg_3rd)
+                    Spacer()
+                    CategoryView(category: .NImpNUrg_4th)
+                }
+            }.padding()
+        }.background(Color.tBackground)
+        .edgesIgnoringSafeArea(.bottom) //sageAreaを無視して描画できる
     }
 }
 
