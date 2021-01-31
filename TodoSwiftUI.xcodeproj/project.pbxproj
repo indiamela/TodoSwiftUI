@@ -21,6 +21,8 @@
 		F2C39A5925C4CB7900C0AE77 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C39A5825C4CB7900C0AE77 /* CategoryView.swift */; };
 		F2C39A5E25C5033D00C0AE77 /* QuickNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C39A5D25C5033D00C0AE77 /* QuickNewTask.swift */; };
 		F2C39A6125C5306E00C0AE77 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C39A6025C5306E00C0AE77 /* TodoList.swift */; };
+		F2C39A6825C54BA600C0AE77 /* TodoDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C39A6725C54BA600C0AE77 /* TodoDetailRow.swift */; };
+		F2C39A6B25C54FE500C0AE77 /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C39A6A25C54FE500C0AE77 /* CategoryImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		F2C39A5825C4CB7900C0AE77 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		F2C39A5D25C5033D00C0AE77 /* QuickNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNewTask.swift; sourceTree = "<group>"; };
 		F2C39A6025C5306E00C0AE77 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		F2C39A6725C54BA600C0AE77 /* TodoDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailRow.swift; sourceTree = "<group>"; };
+		F2C39A6A25C54FE500C0AE77 /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +87,14 @@
 			children = (
 				F22BEF5425C375730046A25B /* Extension */,
 				F26B9C9825C2257B004F1262 /* AppDelegate.swift */,
+				F2C39A6A25C54FE500C0AE77 /* CategoryImage.swift */,
 				F26B9C9A25C2257B004F1262 /* SceneDelegate.swift */,
 				F26B9C9C25C2257B004F1262 /* ContentView.swift */,
 				F26B9CB025C227F7004F1262 /* CheckBox.swift */,
 				F2C39A5825C4CB7900C0AE77 /* CategoryView.swift */,
 				F22BEF5825C377600046A25B /* UserView.swift */,
 				F2C39A6025C5306E00C0AE77 /* TodoList.swift */,
+				F2C39A6725C54BA600C0AE77 /* TodoDetailRow.swift */,
 				F2C39A5D25C5033D00C0AE77 /* QuickNewTask.swift */,
 				F26B9CA125C2257C004F1262 /* Assets.xcassets */,
 				F26B9CA625C2257C004F1262 /* LaunchScreen.storyboard */,
@@ -181,9 +187,11 @@
 				F2C39A6125C5306E00C0AE77 /* TodoList.swift in Sources */,
 				F2C39A5E25C5033D00C0AE77 /* QuickNewTask.swift in Sources */,
 				F26B9C9925C2257B004F1262 /* AppDelegate.swift in Sources */,
+				F2C39A6B25C54FE500C0AE77 /* CategoryImage.swift in Sources */,
 				F22BEF5625C375970046A25B /* Color+Extension.swift in Sources */,
 				F26B9CA025C2257B004F1262 /* TodoSwiftUI.xcdatamodeld in Sources */,
 				F26B9C9B25C2257B004F1262 /* SceneDelegate.swift in Sources */,
+				F2C39A6825C54BA600C0AE77 /* TodoDetailRow.swift in Sources */,
 				F26B9C9D25C2257B004F1262 /* ContentView.swift in Sources */,
 				F26B9CB125C227F7004F1262 /* CheckBox.swift in Sources */,
 				F22BEF5925C377600046A25B /* UserView.swift in Sources */,
