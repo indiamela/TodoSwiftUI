@@ -20,7 +20,7 @@ struct CategoryView: View {
                 .font(.largeTitle)
                 .sheet(isPresented: $showList, content: {
                     //showListがtrueになったらsheetを表示
-                    NewTask(category: self.category.rawValue)
+                    TodoList(category: self.category)
                         .environment(\.managedObjectContext, self.viewContext)
                         //DBを扱う
                 })
