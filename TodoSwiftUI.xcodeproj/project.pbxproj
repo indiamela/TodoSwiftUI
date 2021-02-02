@@ -26,6 +26,9 @@
 		F2C39A6825C54BA600C0AE77 /* TodoDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C39A6725C54BA600C0AE77 /* TodoDetailRow.swift */; };
 		F2C39A6B25C54FE500C0AE77 /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C39A6A25C54FE500C0AE77 /* CategoryImage.swift */; };
 		F2DF9C3E25C8B7D100EFA4B3 /* EditTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF9C3D25C8B7D100EFA4B3 /* EditTask.swift */; };
+		F2DF9C4125CA095D00EFA4B3 /* TaskToday.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF9C4025CA095D00EFA4B3 /* TaskToday.swift */; };
+		F2DF9C4425CA0DF100EFA4B3 /* Date+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF9C4325CA0DF100EFA4B3 /* Date+Extention.swift */; };
+		F2DF9C4825CA117800EFA4B3 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF9C4725CA117800EFA4B3 /* RoundedCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		F2C39A6725C54BA600C0AE77 /* TodoDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailRow.swift; sourceTree = "<group>"; };
 		F2C39A6A25C54FE500C0AE77 /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
 		F2DF9C3D25C8B7D100EFA4B3 /* EditTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTask.swift; sourceTree = "<group>"; };
+		F2DF9C4025CA095D00EFA4B3 /* TaskToday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskToday.swift; sourceTree = "<group>"; };
+		F2DF9C4325CA0DF100EFA4B3 /* Date+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extention.swift"; sourceTree = "<group>"; };
+		F2DF9C4725CA117800EFA4B3 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 				F22BEF5525C375970046A25B /* Color+Extension.swift */,
 				F23906A425C6AC1A0088164D /* Binding+Extension.swift */,
 				F2C39A5425C4C8EC00C0AE77 /* TodoEntity+Extension.swift */,
+				F2DF9C4325CA0DF100EFA4B3 /* Date+Extention.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -100,6 +107,8 @@
 				F26B9CB025C227F7004F1262 /* CheckBox.swift */,
 				F2DF9C3D25C8B7D100EFA4B3 /* EditTask.swift */,
 				F2C39A5825C4CB7900C0AE77 /* CategoryView.swift */,
+				F2DF9C4725CA117800EFA4B3 /* RoundedCorners.swift */,
+				F2DF9C4025CA095D00EFA4B3 /* TaskToday.swift */,
 				F22BEF5825C377600046A25B /* UserView.swift */,
 				F2C39A6025C5306E00C0AE77 /* TodoList.swift */,
 				F23906A025C6A6230088164D /* NewTask.swift */,
@@ -199,6 +208,7 @@
 				F26B9C9925C2257B004F1262 /* AppDelegate.swift in Sources */,
 				F23906A525C6AC1A0088164D /* Binding+Extension.swift in Sources */,
 				F2C39A6B25C54FE500C0AE77 /* CategoryImage.swift in Sources */,
+				F2DF9C4125CA095D00EFA4B3 /* TaskToday.swift in Sources */,
 				F22BEF5625C375970046A25B /* Color+Extension.swift in Sources */,
 				F26B9CA025C2257B004F1262 /* TodoSwiftUI.xcdatamodeld in Sources */,
 				F26B9C9B25C2257B004F1262 /* SceneDelegate.swift in Sources */,
@@ -207,6 +217,8 @@
 				F26B9C9D25C2257B004F1262 /* ContentView.swift in Sources */,
 				F26B9CB125C227F7004F1262 /* CheckBox.swift in Sources */,
 				F22BEF5925C377600046A25B /* UserView.swift in Sources */,
+				F2DF9C4825CA117800EFA4B3 /* RoundedCorners.swift in Sources */,
+				F2DF9C4425CA0DF100EFA4B3 /* Date+Extention.swift in Sources */,
 				F2C39A5925C4CB7900C0AE77 /* CategoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
