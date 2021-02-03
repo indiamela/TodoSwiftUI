@@ -30,6 +30,22 @@ extension TodoEntity {
             fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
         }
     }
+    
+    static func count(in managedObjectContext: NSManagedObjectContext,
+                      category: Category) -> Int {
+        //タスク数
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "TodoEntity")
+        fetchRequest.predicate = NSPredicate(format: "category == \(category.rawValue)")
+        
+        
+        do {
+            let count = try managedObjectContext.count(for: fetchRequest)
+            return count
+        } catch  {
+            print("Error: \(error.localizedDescription)")
+            return 0
+        }
+    }
 
     enum Category: Int16 {
         case ImpUrg_1st     // Important & Urgent (第Ⅰ領域）

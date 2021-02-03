@@ -14,11 +14,15 @@ struct CategoryView: View {
     @Environment(\.managedObjectContext) var viewContext
     @State var addNewtask = false
     //viewContextはDBを操作するために必要
+    fileprivate func update() {
+        self.numberOfTasks = TodoEntity.count(in: self.viewContext,category: self.category)
+    }
+    
     var body: some View {
         VStack(alignment: .leading) {
             Image(systemName: category.image())
                 .font(.largeTitle)
-                .sheet(isPresented: $showList, content: {
+                .sheet(isPresented: $showList, onDismiss: {self.update()},content: {
                     //showListがtrueになったらsheetを表示
                     TodoList(category: self.category)
                         .environment(\.managedObjectContext, self.viewContext)
@@ -31,7 +35,7 @@ struct CategoryView: View {
                 }) {
                     //新規タスク追加
                     Image(systemName: "plus")
-                }.sheet(isPresented: $addNewtask, content: {
+                }.sheet(isPresented: $addNewtask, onDismiss: {self.update()}, content: {
                     NewTask(category: self.category.rawValue)
                         .environment(\.managedObjectContext, self.viewContext)
                 })
@@ -45,6 +49,9 @@ struct CategoryView: View {
         .onTapGesture {
             //showListがtrueになったらsheetを表示
             self.showList = true
+        }
+        .onAppear{
+            self.update()
         }
     }
 }
