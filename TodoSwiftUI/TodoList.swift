@@ -56,7 +56,7 @@ struct TodoList: View {
         }.onDisappear{
             self.keyboard.stopObserve()
             UIApplication.shared.closeKeyboard()
-        }.padding(.bottom, 300)
+        }.padding(.bottom, keyboard.keyboardHeight)
     }
 }
 
